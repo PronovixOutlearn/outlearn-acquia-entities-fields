@@ -1,0 +1,42 @@
+{
+  "olpVersion" : "0.1",
+
+  "paths" : [
+    {
+      "name" : "building-modules-drupal8-part2",
+      "title" : "Building modules with Drupal 8 - Part 2",
+      "description" : "Entities and Fields",
+      "privacy" : "private",
+      "coverImage" : "https://raw.githubusercontent.com/outlearn-content/assets/master/space.jpg",
+      "coverColor" : "#28a9e0",
+      "pages" : [
+        {"module" : "drupal-8-entities-content-entities-and-configuration-entities"},
+        {"module" : "drupal-8-entities-lab"},
+        {"module" : "drupal-8-fields-entities"},
+        {"module" : "drupal-8-exporting-configurations"},
+        {"module" : "drupal-8-fields-lab-and-other-information"},
+        {"module" : "drupal-8-entity-queries-and-loading-entities"},
+        {"module" : "drupal-8-loading-entities"},
+        {"module" : "drupal-8-load-and-query-entities-lab"},
+        {"module" : "drupal-8-loading-and-editing-fields"},
+        {"module" : "drupal-8-loading-fields-examples"}
+      ]
+    }
+  ],
+
+  "modules" : [
+    {"olm" : "./modules/drupal-8-entities-content-entities-and-configuration-entities.md"},
+    {"olm" : "./modules/drupal-8-entities-lab.md"},
+    {"olm" : "./modules/drupal-8-fields-entities.md"},
+    {"olm" : "./modules/drupal-8-exporting-configurations.md"},
+    {"olm" : "./modules/drupal-8-fields-lab-and-other-information.md"},
+    {"olm" : "./modules/drupal-8-entity-queries-and-loading-entities.md"},
+    {"olm" : "./modules/drupal-8-loading-entities.md"},
+    {"olm" : "./modules/drupal-8-load-and-query-entities-lab.md"},
+    {"olm" : "./modules/drupal-8-loading-and-editing-fields.md"},
+    {"olm" : "./modules/drupal-8-loading-fields-examples.md"}
+  ],
+
+  "assets" : [
+  ]
+}
