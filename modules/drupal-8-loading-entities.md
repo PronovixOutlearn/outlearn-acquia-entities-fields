@@ -106,6 +106,7 @@ $nodes = entity_load_multiple('node', $nids);
 ## Creating the Controller
 
 We will bring together all of these pieces now. We will add the query objects and use those in our functions to obtain lists of node IDs using an example module `QueryExampleController.php`.
+
 [Download this file](https://gist.github.com/acquialibrary/dbb72b25ba9c04eaef53/archive/613bdd63631fb18dc4066e108174cd38206e6f78.zip).
 
 ```php
@@ -203,7 +204,8 @@ class QueryExampleController extends ControllerBase {
 
 
 
-The next step is to edit the existing routing file to call the public functions:[Download this file](https://gist.github.com/acquialibrary/da9ea858ccfcaec10c40/archive/79b8953fd5cdad77cfb675ff2d5d8c68416e0590.zip
+The next step is to edit the existing routing file to call the public functions:
+[Download this file](https://gist.github.com/acquialibrary/da9ea858ccfcaec10c40/archive/79b8953fd5cdad77cfb675ff2d5d8c68416e0590.zip)
 
 ```
 query_example.simple:  
@@ -225,5 +227,4 @@ query_example.advanced:
   requirements:
     _access: 'TRUE'
 ```
-
 [view raw](https://gist.github.com/acquialibrary/da9ea858ccfcaec10c40/raw/79b8953fd5cdad77cfb675ff2d5d8c68416e0590/query_example.routing.yml) [query_example.routing.yml](https://gist.github.com/acquialibrary/da9ea858ccfcaec10c40#file-query_example-routing-yml) hosted with ❤ by [GitHub](https://github.com)
